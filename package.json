@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "build": "tsc --lib DOM,ESNext,DOM.Iterable,ScriptHost main.ts", 
     "start": "tsc -w --lib DOM,ESNext,DOM.Iterable,ScriptHost main.ts"
   },
   "devDependencies": {
